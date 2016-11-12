@@ -47,10 +47,7 @@ O arquivo .env é onde você configura os dados de acesso ao banco de dados.
 Posteriormente a configuração do banco execute:
 ```
 php artisan migrate
-php artisan db:seed
 ```
-
-Você pode editar o arquivo **database/seeds/UsersTableSeed.php** para definir as informações de login do administrador.
 
 Pronto, agora abra o navegador e acessa sua aplicação. No canto esquerdo terá o menu para efetuar login na tela administrativa.
 
